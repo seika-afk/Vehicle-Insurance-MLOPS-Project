@@ -7,6 +7,9 @@ extras.py
 # C extensions
 *.so
 
+artifact/
+.env
+
 # Distribution / packaging
 .Python
 build/
