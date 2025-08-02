@@ -14,9 +14,10 @@ class DataValidationArtifact:
 
 @dataclass
 class DataTransformationArtifact:
-    transformed_object_file_path:str 
+    transformed_object_file_path:str
     transformed_train_file_path:str
     transformed_test_file_path:str
+
 
 @dataclass
 class ClassificationMetricArtifact:
@@ -40,3 +41,8 @@ class ModelEvaluationArtifact:
 class ModelPusherArtifact:
     bucket_name:str
     s3_model_path:str
+
+
+
+
+
